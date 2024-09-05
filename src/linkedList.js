@@ -1,8 +1,7 @@
 import { Node } from "./node";
 class LinkedList {
-  constructor(name) {
+  constructor() {
     this.id = Date.now().toString();
-    this.name = name;
     this.nodeList = [];
   }
 
