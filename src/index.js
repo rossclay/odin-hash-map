@@ -1,4 +1,4 @@
-import "./hashMap";
+import { HashMap } from "./hashMap";
 const test = new HashMap();
 test.set("apple", "red");
 test.set("banana", "yellow");
@@ -12,3 +12,4 @@ test.set("ice cream", "white");
 test.set("jacket", "blue");
 test.set("kite", "pink");
 test.set("lion", "golden");
+console.log(test);
